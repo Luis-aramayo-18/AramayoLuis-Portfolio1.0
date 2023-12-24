@@ -54,7 +54,7 @@ const Contact = () => {
             <article className="hidden lg:block">
               <img
                 className="w-full h-96 block object-contain"
-                src="../../public/logo-contact.png"
+                src="../../public/contact/avatar-contact.png"
                 alt="logo animado de un chico posando"
               />
             </article>

@@ -72,8 +72,8 @@ const Header = () => {
                   ? "border-2 border-yellow-300 rounded-full scale-125"
                   : ""
               }`}
-              src="../../public/en-icon.png"
-              alt=""
+              src="../../public/nav/en-icon.png"
+              alt="logo bandera Inglaterra"
             />
             <img
               onClick={() => {
@@ -84,8 +84,8 @@ const Header = () => {
                   ? "border-2 border-yellow-300 rounded-full scale-125"
                   : ""
               }`}
-              src="../../public/es-icon.png"
-              alt=""
+              src="../../public/nav/es-icon.png"
+              alt="logo bandera de España"
             />
           </div>
 
@@ -95,8 +95,8 @@ const Header = () => {
           >
             <img
               className="h-32 w-32 sm:h-44 sm:w-44"
-              src="../../public/logo-navbar.png"
-              alt=""
+              src="../../public/nav/logo-navbar.png"
+              alt="logo de la barra de navegación"
             />
           </NavLink>
 
@@ -181,8 +181,8 @@ const Header = () => {
                 ? "lg:border-2 lg:border-yellow-300 lg:rounded-full lg:scale-125"
                 : ""
             }`}
-            src="../../public/en-icon.png"
-            alt=""
+            src="../../public/nav/en-icon.png"
+              alt="logo bander Inglaterra"
           />
           <img
             onClick={() => {
@@ -193,8 +193,8 @@ const Header = () => {
                 ? "lg:border-2 lg:border-yellow-300 lg:rounded-full lg:scale-125"
                 : ""
             }`}
-            src="../../public/es-icon.png"
-            alt=""
+            src="../../public/nav/es-icon.png"
+              alt="logo bandera de España"
           />
         </div>
 
@@ -203,9 +203,9 @@ const Header = () => {
           to="/"
         >
           <img
-            className="lg:h-32 lg:w-32"
-            src="../../public/logo-navbar.png"
-            alt=""
+            className="h-32 w-32"
+            src="../../public/nav/logo-navbar.png"
+            alt="logo de la barra de navegación"
           />
         </NavLink>
 

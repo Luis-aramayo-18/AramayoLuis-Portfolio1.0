@@ -38,7 +38,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/imagen-fondo-ultimoproyecto.jpg"
+                src="../../public/home/imagen-fondo-ultimoproyecto.jpg"
                 alt="imagen de fondo loky cuts proyecto"
               />
             </div>
@@ -84,8 +84,8 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/card-rolling.jpg"
-                alt="imagen de fondo loky cuts proyecto"
+                src="../../public/projects/card-rolling.jpg"
+                alt="imagen de fondo Rolling Food"
               />
             </div>
             <div className="lg:p-4 p-3 h-2/6">
@@ -121,8 +121,8 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/card-RyM.jpg"
-                alt="imagen de fondo loky cuts proyecto"
+                src="../../public/projects/card-RyM.jpg"
+                alt="imagen de fondo Rick and Morty"
               />
             </div>
             <div className="lg:p-4 p-3 h-2/6">
@@ -159,8 +159,8 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/card-eccomerse.jpg"
-                alt="imagen de fondo loky cuts proyecto"
+                src="../../public/projects/card-eccomerse.jpg"
+                alt="imagen de fondo Tech Store"
               />
             </div>
             <div className="lg:p-4 p-3 h-2/6">
@@ -193,8 +193,8 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/card-portfolio.jpg"
-                alt="imagen de fondo loky cuts proyecto"
+                src="../../public/projects/card-portfolio.jpg"
+                alt="imagen de fondo mi portfolio"
               />
             </div>
             <div className="lg:p-4 p-3 h-2/6">
@@ -227,8 +227,8 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/card-SyF.jpg"
-                alt="imagen de fondo loky cuts proyecto"
+                src="../../public/projects/card-SyF.jpg"
+                alt="imagen de fondo Salud y fitness"
               />
             </div>
             <div className="lg:p-4 p-3 h-2/6">
