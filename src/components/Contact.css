@@ -1,0 +1,37 @@
+.btn-send{
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-send:hover{
+    background-color: rgb(0, 171, 0);
+    border-color: white;
+    cursor: pointer;
+}
+
+.card-contact{
+    background: linear-gradient(135deg, rgba(11, 11, 11, 0.7), rgb(11, 11, 11));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgb(11, 11, 11, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.9);
+}
+
+.icon-linkedin,
+.icon-gmail{
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.icon-linkedin:hover{
+    transform: scale(1.1);
+    background-color: #0077b5;
+    border-color: white;
+    cursor: pointer;
+}
+
+.icon-gmail:hover{
+    transform: scale(1.1);
+    background-color: #db4a39;
+    border-color: white;
+    cursor: pointer;
+}

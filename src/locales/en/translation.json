@@ -1,0 +1,39 @@
+{   
+    "nav": {
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "title-primary-card": "WEB DEVELOPER",
+        "content-primary-card": "Passionate and creative web developer with experience in impactful projects. I translate ideas into efficient code to create engaging and functional digital experiences. Explore my portfolio!",
+        "projects-card": "PROJECTS",
+        "experience-card": "EXPERIENCE",
+        "title-technologies-card": "TECHNOLOGIES",
+        "future-project-card": "FUTURE PROJECT",
+        "future-project-card-btn": "see more"
+    },
+    "about": {
+        "title": "ABOUT ME",
+        "content": "Hello, my name is Luis, and I'm from Tucumán, Argentina. I'm currently seeking my first job as a software developer. I specialize in web development, particularly in frontend, although I also have knowledge in backend and can navigate both areas. In mid-2022, I discovered this beautiful world of programming, and since then, I've completed several projects that have helped shape my skills as a programmer. I always strive to find the most effective and straightforward solutions to problems. The technologies I enjoy working with the most are HTML, CSS, and React.I consider myself a highly committed and dedicated individual. Thanks to this commitment, I proudly obtained a tertiary degree in business administration and completed an intensive course as a full-stack developer, all while working in a different field and juggling other responsibilities. However, my passion for learning is far from over. I am an eternal learner, seeking continuous professional growth, eager to nurture my knowledge, and ready to contribute my ideas and skills to achieve any set objectives.",
+        "subtitle-education": "EDUCATION",
+        "subtitle-whatido": "WHAT I DO ?",
+        "title-developer": "Developer",
+        "title-ux/ui": "Design UX/UI",
+        "title-ecommerse": "Ecommerse Website",
+        "developer": "As a developer, I aim to create efficient and straightforward solutions. I focus on writing clean, maintainable code, adhering to best practices. I strive to stay updated with new updates and technologies.",
+        "design-ux/ui": "I focus on creating intuitive and visually appealing interfaces to enhance user experience and satisfaction.",
+        "ecommerse": "I'm passionate about crafting secure and engaging platforms to boost online businesses with efficient functionalities, aiming to enhance the user's shopping experience."
+    },
+    "projects": {
+        "title": "ALL MY PROJECTS",
+        "developing": "developing"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "subtitle": "READY TO TAKE YOUR IDEAS TO THE WEB ?",
+        "content": "I'm here to assist you. If you're interested in my services and would like us to collaborate, get a 15% discount for new clients. If you have any suggestions or questions, feel free to reach out to me on my social media.",
+        "subtitle-2": "Contact Me",
+        "btn": "SEND"
+    }
+}

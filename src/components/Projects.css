@@ -1,0 +1,26 @@
+.card-porjects{
+    height: 30rem;
+    background: linear-gradient(135deg, rgba(11, 11, 11, 0.7), rgb(11, 11, 11));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgb(11, 11, 11, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.9);
+
+    transition: border-color 0.2s ease;
+}
+
+.card-porjects:hover{
+    border-color: white;
+}
+
+.icon-project{
+    color: gray;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-project:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.3);
+}
