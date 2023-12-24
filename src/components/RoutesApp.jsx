@@ -13,6 +13,7 @@ const RoutesApp = () => {
   const history = createBrowserHistory();
   return (
     <>
+    {/* agrego un comentario */}
       <Router history={history}>
         <Header />
 
