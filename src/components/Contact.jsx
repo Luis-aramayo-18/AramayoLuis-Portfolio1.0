@@ -88,14 +88,14 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/luis-aramayo-171055235/"
                 className="icon-linkedin flex items-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-4"
               >
-                <i className="text-2xl bx bxl-linkedin"></i>
+                <i className="text-2xl sm:text-4xl lg:text-2xl bx bxl-linkedin"></i>
                 <p className="tracking-widest">Linkedin</p>
               </a>
               <a
                 href="mailto:Luis.aramayo.18@gmail.com"
                 className="icon-gmail flex items-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-4"
               >
-                <i className="text-2xl bx bxl-gmail"></i>
+                <i className="text-2xl sm:text-4xl lg:text-2xl bx bxl-gmail"></i>
                 <p className="tracking-widest">Gmail</p>
               </a>
             </article>

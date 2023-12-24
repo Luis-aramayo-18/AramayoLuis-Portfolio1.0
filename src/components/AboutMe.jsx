@@ -8,12 +8,12 @@ const AboutMe = () => {
 
   return (
     <>
-      <section className="flex justify-center flex-col lg:flex lg:w-4/5 lg:relative lg:flex-col lg:items-center lg:justify-center lg:h-screen relative z-30 lg:pb-16">
-        <section className="w-full mt-6 text-center text-4xl font-light tracking-widest text-white lg:p-0 lg:text-center lg:mt-16">
+      <section className="flex justify-center flex-col lg:flex lg:w-4/5 lg:relative lg:flex-col lg:justify-center lg:h-full relative z-30">
+        <section className="w-full mt-6 text-center text-4xl font-light tracking-widest text-white lg:mt-0 lg:p-10 lg:text-center">
           <h2 className="">{t("about.title")}</h2>
         </section>
 
-        <section className="card-about border-white p-8 flex items-center mt-12 mx-5 lg:mt-8 lg:mx-14">
+        <section className="card-about border-white p-8 flex items-center mt-12 mx-5 lg:p-0 lg:my-0 lg:mx-10">
           <div className="lg:w-2/6 lg:block hidden">
             <img
               className="w-full h-auto block object-cover"
