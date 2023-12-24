@@ -5,16 +5,14 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Header from "./Header";
-import { createBrowserHistory } from 'history';
-
 import "./RoutesApp.css";
 
 const RoutesApp = () => {
   const history = createBrowserHistory();
   return (
     <>
-    {/* agrego un comentario */}
-      <Router history={history}>
+    
+      <Router>
         <Header />
 
         <Routes>
