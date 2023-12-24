@@ -6,6 +6,11 @@ import "./AboutMe.css";
 const AboutMe = () => {
   const { t } = useTranslation("global");
 
+  const openCV = () => {
+    const rutaCV = '/AramayoLuisCv-dev.pdf';
+    window.open(rutaCV, '_blank');
+  };
+
   return (
     <>
       <section className="flex justify-center flex-col lg:flex lg:w-4/5 lg:relative lg:flex-col lg:justify-center lg:h-full relative z-30">
@@ -31,7 +36,7 @@ const AboutMe = () => {
 
               <p className="text-gray-300 mt-4">{t("about.content")}</p>
 
-              <a href="">
+              <a onClick={openCV} href="">
                 <div className="btn-cv text-center text-lg text-white border border-gray-400 w-32 mt-6 px-4 py-3 rounded-lg">
                   RESUME
                 </div>
