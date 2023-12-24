@@ -8,13 +8,10 @@ import Header from "./Header";
 import "./RoutesApp.css";
 
 const RoutesApp = () => {
-  const history = createBrowserHistory();
   return (
     <>
-    
       <Router>
         <Header />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
