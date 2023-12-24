@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <>
-      <section className="z-30">
+      <section className="z-30 lg:w-4/5 lg:h-full lg:overflow-y-auto">
         <h2 className="text-4xl text-center font-light tracking-widest text-white p-10">
           {t("projects.title")}
         </h2>

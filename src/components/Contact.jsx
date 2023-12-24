@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="z-30">
+      <section className="z-30 lg:w-4/5 lg:h-full lg:overflow-y-auto lg:relative">
         <h2 className="text-4xl text-center font-light p-10 tracking-widest text-white">
           {t("contact.title")}
         </h2>
@@ -101,7 +101,7 @@ const Contact = () => {
             </article>
           </div>
 
-          <div className="card-contact relative col-[1/11] row-[1/4] z-30 sm:py-10 lg:p-0 lg:col-[1/12] lg:row-[2/3] lg:grid lg:grid-cols-10">
+          <div className="card-contact relative col-[1/11] row-[1/4] z-30 sm:py-10 lg:p-0 lg:col-[1/12] lg:row-[1/5] lg:mt-20 lg:grid lg:grid-cols-10">
             <form
               ref={form}
               onSubmit={sendEmail}

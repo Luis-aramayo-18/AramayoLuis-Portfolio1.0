@@ -52,7 +52,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="grid w-full h-full grid-cols-10 grid-rows-7 p-4 gap-4 relative z-30 lg:grid lg:w-full lg:h-full lg:grid-cols-9 lg:grid-rows-7 lg:p-6 lg:px-10 lg:gap-6 lg:relative lg:z-50">
+      <section className="grid w-full h-full grid-cols-10 grid-rows-7 p-4 gap-4 relative z-30 lg:grid lg:w-4/5 lg:h-full lg:grid-cols-9 lg:grid-rows-7 lg:p-6 lg:px-10 lg:gap-6 lg:relative lg:overflow-y-auto lg:z-50">
         {/* ------------ PRIMERA COL----------------- */}
         <article className="card p-8 flex flex-col-reverse text-white col-[1/11] row-[1/4] sm:p-14 lg:text-white lg:p-0 lg:col-[1/7] lg:row-[1/4] lg:flex lg:flex-row lg:rounded-2xl">
           <div className="w-full h-full lg:p-6 lg:w-4/6">

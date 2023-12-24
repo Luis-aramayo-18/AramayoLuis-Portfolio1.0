@@ -8,7 +8,7 @@ const AboutMe = () => {
 
   return (
     <>
-      <section className="flex justify-center flex-col lg:flex lg:flex-col lg:items-center lg:justify-center lg:h-screen relative z-30 lg:pb-16">
+      <section className="flex justify-center flex-col lg:flex lg:w-4/5 lg:relative lg:flex-col lg:items-center lg:justify-center lg:h-screen relative z-30 lg:pb-16">
         <section className="w-full mt-6 text-center text-4xl font-light tracking-widest text-white lg:p-0 lg:text-center lg:mt-16">
           <h2 className="">{t("about.title")}</h2>
         </section>
