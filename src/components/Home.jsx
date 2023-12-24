@@ -106,7 +106,7 @@ const Home = () => {
           <div className="hidden lg:block lg:w-2/6 lg:h-full">
             <img
               className="lg:w-full lg:h-full lg:object-cover lg:rounded-e-2xl"
-              src="../../public/home/me-home.jpg"
+              src="../../public/me-home.jpg"
               alt="Aramayo Luis imagen portfolio"
             />
           </div>
@@ -126,7 +126,9 @@ const Home = () => {
         <article className="card rounded-2xl h-44 text-white col-[1/6] row-[5/6] sm:h-56 lg:col-[3/5] lg:row-[4/5] lg:h-40 lg:p-4">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
-              <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">+</p>
+              <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">
+                +
+              </p>
               <h2 className="text-5xl sm:text-8xl lg:text-4xl font-bold text-purple-500 bounce-top">
                 1
               </h2>
@@ -140,7 +142,9 @@ const Home = () => {
         <article className="card rounded-2xl h-44  text-white col-[6/11] row-[5/6] sm:h-56 lg:col-[5/7] lg:row-[4/5] lg:h-40">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
-              <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">+</p>
+              <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">
+                +
+              </p>
               <h2 className="text-5xl sm:text-8xl lg:text-4xl font-bold text-purple-500 bounce-top">
                 5
               </h2>
@@ -154,7 +158,7 @@ const Home = () => {
         <article className="card rounded-2xl text-white col-[6/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
-            src="../../public/home/wallpaper-home.jpeg"
+            src="../../public/wallpaper-home.jpeg"
             alt=""
           />
         </article>
@@ -169,66 +173,90 @@ const Home = () => {
           <div className="mt-6 flex flex-wrap justify-center gap-8 px-6">
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-html5"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">HTML</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                HTML
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-css3"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">CSS</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                CSS
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-javascript"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">JavaScript</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                JavaScript
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-react"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">React</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                React
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-bootstrap"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">Bootstrap</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                Bootstrap
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-tailwind-css"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">Tailwind</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                Tailwind
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxs-data"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">MySql</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                MySql
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-nodejs"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">NodeJs</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                NodeJs
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-mongodb"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">MongoDb</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                MongoDb
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-trello"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">Trello</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                Trello
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center">
               <i className="text-3xl sm:text-5xl lg:text-3xl bx bxl-github"></i>
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400">GitHub</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400">
+                GitHub
+              </span>
             </div>
 
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center mt-1">
               <img
                 className="h-7 w-7 sm:h-10 sm:w-10 lg:h-7 lg:w-7 bg-white rounded-full p-1"
-                src="../../public/home/icons8-express-js-50.png"
+                src="../../public/icons8-express-js-50.png"
                 alt="logo de express js"
               />
-              <span className="text-base sm:text-xl lg:text-lg text-gray-400 mt-1">ExpressJs</span>
+              <span className="text-base sm:text-xl lg:text-lg text-gray-400 mt-1">
+                ExpressJs
+              </span>
             </div>
           </div>
         </article>
@@ -276,7 +304,7 @@ const Home = () => {
           <div>
             <img
               className="w-full h-full block object-cover rounded-b-2xl"
-              src="../../public/home/imagen-fondo-ultimoproyecto.jpg"
+              src="../../public/imagen-fondo-ultimoproyecto.jpg"
               alt=""
             />
           </div>

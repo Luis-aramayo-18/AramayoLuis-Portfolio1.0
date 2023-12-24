@@ -72,7 +72,7 @@ const Header = () => {
                   ? "border-2 border-yellow-300 rounded-full scale-125"
                   : ""
               }`}
-              src="../../public/nav/en-icon.png"
+              src="../../public/en-icon.png"
               alt="logo bandera Inglaterra"
             />
             <img
@@ -84,7 +84,7 @@ const Header = () => {
                   ? "border-2 border-yellow-300 rounded-full scale-125"
                   : ""
               }`}
-              src="../../public/nav/es-icon.png"
+              src="../../public/es-icon.png"
               alt="logo bandera de España"
             />
           </div>
@@ -95,7 +95,7 @@ const Header = () => {
           >
             <img
               className="h-32 w-32 sm:h-44 sm:w-44"
-              src="../../public/nav/logo-navbar.png"
+              src="../../public/logo-navbar.png"
               alt="logo de la barra de navegación"
             />
           </NavLink>
@@ -181,7 +181,7 @@ const Header = () => {
                 ? "lg:border-2 lg:border-yellow-300 lg:rounded-full lg:scale-125"
                 : ""
             }`}
-            src="../../public/nav/en-icon.png"
+            src="../../public/en-icon.png"
               alt="logo bander Inglaterra"
           />
           <img
@@ -193,7 +193,7 @@ const Header = () => {
                 ? "lg:border-2 lg:border-yellow-300 lg:rounded-full lg:scale-125"
                 : ""
             }`}
-            src="../../public/nav/es-icon.png"
+            src="../../public/es-icon.png"
               alt="logo bandera de España"
           />
         </div>
@@ -204,7 +204,7 @@ const Header = () => {
         >
           <img
             className="h-32 w-32"
-            src="../../public/nav/logo-navbar.png"
+            src="../../public/logo-navbar.png"
             alt="logo de la barra de navegación"
           />
         </NavLink>

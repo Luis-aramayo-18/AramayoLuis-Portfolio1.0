@@ -38,7 +38,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/home/imagen-fondo-ultimoproyecto.jpg"
+                src="../../public/imagen-fondo-ultimoproyecto.jpg"
                 alt="imagen de fondo loky cuts proyecto"
               />
             </div>
@@ -84,7 +84,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/projects/card-rolling.jpg"
+                src="../../public/card-rolling.jpg"
                 alt="imagen de fondo Rolling Food"
               />
             </div>
@@ -121,7 +121,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/projects/card-RyM.jpg"
+                src="../../public/card-RyM.jpg"
                 alt="imagen de fondo Rick and Morty"
               />
             </div>
@@ -159,7 +159,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/projects/card-eccomerse.jpg"
+                src="../../public/card-eccomerse.jpg"
                 alt="imagen de fondo Tech Store"
               />
             </div>
@@ -193,7 +193,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/projects/card-portfolio.jpg"
+                src="../../public/card-portfolio.jpg"
                 alt="imagen de fondo mi portfolio"
               />
             </div>
@@ -227,7 +227,7 @@ const Projects = () => {
             <div className="h-4/6">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
-                src="../../public/projects/card-SyF.jpg"
+                src="../../public/card-SyF.jpg"
                 alt="imagen de fondo Salud y fitness"
               />
             </div>
