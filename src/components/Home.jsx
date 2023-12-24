@@ -106,7 +106,7 @@ const Home = () => {
           <div className="hidden lg:block lg:w-2/6 lg:h-full">
             <img
               className="lg:w-full lg:h-full lg:object-cover lg:rounded-e-2xl"
-              src="../../public/me-home.jpg"
+              src="/me-home.jpg"
               alt="Aramayo Luis imagen portfolio"
             />
           </div>
@@ -158,7 +158,7 @@ const Home = () => {
         <article className="card rounded-2xl text-white col-[6/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
-            src="../../public/wallpaper-home.jpeg"
+            src="/wallpaper-home.jpeg"
             alt=""
           />
         </article>
@@ -251,7 +251,7 @@ const Home = () => {
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center mt-1">
               <img
                 className="h-7 w-7 sm:h-10 sm:w-10 lg:h-7 lg:w-7 bg-white rounded-full p-1"
-                src="../../public/icons8-express-js-50.png"
+                src="/icons8-express-js-50.png"
                 alt="logo de express js"
               />
               <span className="text-base sm:text-xl lg:text-lg text-gray-400 mt-1">
@@ -269,7 +269,7 @@ const Home = () => {
             </h2>
             <img
               className="h-5 w-5 sm:h-8 sm:w-8 lg:h-7 lg:w-7 mb-8"
-              src="../../public/home/logo-argentina-home.png"
+              src="/logo-argentina-home.png"
               alt="bandera de la argentina"
             />
           </div>
@@ -304,7 +304,7 @@ const Home = () => {
           <div>
             <img
               className="w-full h-full block object-cover rounded-b-2xl"
-              src="../../public/imagen-fondo-ultimoproyecto.jpg"
+              src="/imagen-fondo-ultimoproyecto.jpg"
               alt=""
             />
           </div>

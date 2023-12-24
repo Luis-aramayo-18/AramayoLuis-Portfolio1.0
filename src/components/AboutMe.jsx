@@ -17,7 +17,7 @@ const AboutMe = () => {
           <div className="lg:w-2/6 lg:block hidden">
             <img
               className="w-full h-auto block object-cover"
-              src="../../public/avatar-about.png"
+              src="/avatar-about.png"
               alt="imagen avatar"
             />
           </div>
