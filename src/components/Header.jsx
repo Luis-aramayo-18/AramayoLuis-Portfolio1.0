@@ -72,7 +72,7 @@ const Header = () => {
                   ? "border-2 border-yellow-300 rounded-full scale-125"
                   : ""
               }`}
-              src="../../public/en-icon.png"
+              src="/en-icon.png"
               alt="logo bandera Inglaterra"
             />
             <img
