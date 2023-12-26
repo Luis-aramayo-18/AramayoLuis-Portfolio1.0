@@ -158,7 +158,7 @@ const Home = () => {
         <article className="card rounded-2xl text-white col-[6/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
-            src="/wallpaper-home.jpeg"
+            src="/wallpaper-home.jpg"
             alt=""
           />
         </article>
