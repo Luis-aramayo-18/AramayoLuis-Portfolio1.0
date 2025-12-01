@@ -36,7 +36,8 @@ const AboutMe = () => {
 
               <div
                 className="px-4 py-8 rounded-2xl p-4 
-                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl mt-10"
+                       lg:col-[2/3] lg:row-[1/2]
+                       card-about mt-10"
               >
                 <p className="text-gray-200">{t("about.content")}</p>
 
@@ -54,7 +55,8 @@ const AboutMe = () => {
               </h2>
               <div
                 className="px-4 py-8 rounded-2xl p-4 
-                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl mt-10"
+                       lg:col-[2/3] lg:row-[1/2]
+                       card-about mt-10"
               >
                 <ol className="relative border-s border-gray-200 dark:border-gray-200 ml-8">
                   <li className="mb-10 ms-6">
@@ -107,8 +109,8 @@ const AboutMe = () => {
 
               <div className="grid grid-cols-1 grid-rows-3 gap-5 lg:grid-cols-2 lg:grid-rows-2 mt-10">
                 <div
-                  className="lg:col-[1/2] lg:row-[1/2] rounded-2xl p-4 
-                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                  className="lg:col-[2/3] lg:row-[1/2] rounded-2xl p-4 
+                       card-about"
                 >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-developer")}
@@ -118,7 +120,7 @@ const AboutMe = () => {
 
                 <div
                   className="lg:col-[2/3] lg:row-[1/2] rounded-2xl p-4 
-                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                       card-about"
                 >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-ux/ui")}
@@ -130,7 +132,7 @@ const AboutMe = () => {
 
                 <div
                   className="lg:col-[1/2] lg:row-[2/3] rounded-2xl p-4 
-                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                       card-about"
                 >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-ecommerse")}
