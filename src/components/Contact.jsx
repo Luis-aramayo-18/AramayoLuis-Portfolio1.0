@@ -50,7 +50,7 @@ const Contact = () => {
         </h2>
 
         <section className="grid w-full h-full grid-cols-10 grid-rows-7 p-6 lg:p-6 lg:px-10 gap-6 relative z-30">
-          <div className="card-contact col-[1/11] row-[4/8] relative z-40 sm:py-10 lg:p-0 lg:border-2 border border-white lg:w-custom-w lg:col-[2/6] lg:row-[1/8]">
+          <div className="card-contact col-[1/11] row-[4/8] relative z-40 sm:py-10 lg:p-0 lg:border-2 border border-white lg:w-custom-w lg:col-[1/6] lg:row-[1/8]">
             <article className="hidden lg:block">
               <img
                 className="w-full h-96 block object-contain"

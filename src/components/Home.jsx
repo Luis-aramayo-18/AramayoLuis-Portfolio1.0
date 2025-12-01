@@ -304,7 +304,7 @@ const Home = () => {
           <div className="">
             <img
               className="w-full h-full block object-cover rounded-b-2xl"
-              src="/imagen-fondo-ultimoproyecto.jpg"
+              src="/card-ultimoproyecto.webp"
               alt=""
             />
           </div>
