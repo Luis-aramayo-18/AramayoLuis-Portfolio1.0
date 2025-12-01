@@ -45,13 +45,36 @@ const Contact = () => {
   return (
     <>
       <section className="z-30 lg:w-4/5 lg:h-full lg:overflow-y-auto lg:relative">
-        <h2 className="text-4xl text-center font-light p-10 tracking-widest text-white">
-          {t("contact.title")}
-        </h2>
+        <section className="grid w-full h-full grid-cols-10 grid-rows-7 lg:px-10 gap-6 relative z-30 mt-10">
+          <div className="card-contact col-[1/11] row-[4/8] relative z-40 sm:py-10 lg:py-6 lg:border-2 border border-white lg:w-custom-w lg:col-[6/12] lg:row-[1/8]">
+            <article className="p-6">
+              <h2 className="sm:text-3xl lg:text-2xl text-lg text-white tracking-widest font mb-2">
+                {t("contact.subtitle")}
+              </h2>
+              <p className="text-gray-300 sm:text-lg lg:text-base mt-4 lg:mt-6">
+                {t("contact.content")}
+              </p>
+              <h4 className="text-xl sm:text-2xl lg:text-xl text-purple-500 tracking-widest font-semibold mt-4">
+                {t("contact.subtitle-2")}
+              </h4>
+            </article>
 
-        <section className="grid w-full h-full grid-cols-10 grid-rows-7 p-6 lg:p-6 lg:px-10 gap-6 relative z-30">
-          <div className="card-contact col-[1/11] row-[4/8] relative z-40 sm:py-10 lg:p-0 lg:border-2 border border-white lg:w-custom-w lg:col-[1/6] lg:row-[1/8]">
-            <article className="hidden lg:block">
+            <article className="px-6">
+              <div className="flex items-center gap-3 text-lg sm:text-2xl lg:text-xl text-white">
+                <i className="sm:text-4xl lg:text-lg bx bx-mobile-alt text-purple-500"></i>
+                <p className="text-[18px] font-medium">+54 9 381 576-5255</p>
+              </div>
+              <div className="flex items-center gap-3 text-lg sm:text-2xl lg:text-xl text-white mt-2">
+                <i className="sm:text-4xl lg:text-lg bx bx-map-pin text-purple-500"></i>
+                <p className="text-[18px] font-medium">
+                  San Miguel de Tucuman, Argentina
+                </p>
+              </div>
+            </article>
+
+            <hr className="ml-6 lg:mt-10 w-3/4" />
+
+            <article className="hidden lg:block mt-5">
               <img
                 className="w-full h-96 block object-contain"
                 src="/avatar-contact.webp"
@@ -59,41 +82,21 @@ const Contact = () => {
               />
             </article>
 
-            <article className="p-6">
-              <h2 className="sm:text-3xl lg:text-2xl text-lg text-white tracking-widest font mb-2">
-                {t("contact.subtitle")}
-              </h2>
-              <p className="text-gray-300 sm:text-lg lg:text-base mt-4 lg:mt-6">{t("contact.content")}</p>
-              <h4 className="text-xl sm:text-2xl lg:text-xl text-purple-500 tracking-widest font-semibold mt-4">
-                {t("contact.subtitle-2")}
-              </h4>
-            </article>
-
-            <hr className="ml-6 lg:mt-2 w-3/4" />
-
-            <article className="mt-2 p-6">
-              <div className="flex items-center gap-2 text-lg sm:text-2xl lg:text-xl text-white">
-                <i className="sm:text-4xl lg:text-2xl bx bx-mobile-alt text-purple-500"></i>
-                <p>3815765255</p>
-              </div>
-              <div className="flex items-center gap-2 text-lg sm:text-2xl lg:text-xl text-white mt-4">
-                <i className="sm:text-4xl lg:text-2xl bx bx-map-pin text-purple-500"></i>
-                <p>Tucuman, argentina</p>
-              </div>
-            </article>
-
             <article className="flex justify-center gap-4 mb-6 mt-2">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/luis-aramayo-171055235/"
-                className="icon-linkedin flex items-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-4"
+                className="w-[30%] flex items-center justify-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-3 transition duration-300
+                 hover:bg-blue-700 hover:border-blue-700"
               >
                 <i className="text-2xl sm:text-4xl lg:text-2xl bx bxl-linkedin"></i>
                 <p className="tracking-widest">Linkedin</p>
               </a>
+
               <a
                 href="mailto:Luis.aramayo.18@gmail.com"
-                className="icon-gmail flex items-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-4"
+                className="w-[30%] flex items-center justify-center gap-2 lg:text-lg text-white border border-gray-300 rounded-lg p-3 transition duration-300
+                 hover:bg-red-600 hover:border-red-600"
               >
                 <i className="text-2xl sm:text-4xl lg:text-2xl bx bxl-gmail"></i>
                 <p className="tracking-widest">Gmail</p>
@@ -101,41 +104,15 @@ const Contact = () => {
             </article>
           </div>
 
-          <div className="card-contact relative col-[1/11] row-[1/4] z-30 sm:py-10 lg:p-0 lg:col-[1/12] lg:row-[1/5] lg:mt-20 lg:grid lg:grid-cols-10">
+          <div className="card-contact relative col-[1/11] row-[1/4] z-30 sm:py-10 lg:p-0 lg:col-[1/12] lg:row-[1/5] lg:mt-10 lg:grid lg:grid-cols-10">
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="col-[6/11] flex flex-col gap-4 p-6 lg:p-10"
+              className="col-[1/6] flex flex-col gap-4 lg:py-8 ps-5"
             >
-              <div className="flex gap-5">
-                <input
-                  className="w-2/4 p-4 bg-transparent placeholder-white border border-gray-300 text-white rounded-lg"
-                  placeholder="Firs Name"
-                  type="text"
-                  name="user_name"
-                  min="3"
-                  max="15"
-                  required
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                />
-
-                <input
-                  className="w-2/4 p-4 bg-transparent placeholder-white border border-gray-300 text-white rounded-lg"
-                  placeholder="Last Name"
-                  type="text"
-                  name="user_lastname"
-                  min="3"
-                  max="15"
-                  required
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                />
-              </div>
-
               <input
-                className="p-4 bg-transparent placeholder-white border border-gray-300 text-white rounded-lg"
-                placeholder="Your Email Adress"
+                className="w-[90%] p-2 bg-transparent placeholder-white placeholder:text-sm border-b border-gray-300 focus:border-purple-500 focus:outline-none text-white rounded-none transition duration-300"
+                placeholder="Your Email Address"
                 type="email"
                 name="user_email"
                 min="6"
@@ -145,8 +122,9 @@ const Contact = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
 
+              {/* CAMBIO: Usar border-b y eliminar border-gray-300 */}
               <textarea
-                className="p-4 pb-16 bg-transparent placeholder-white border border-gray-300 resize-none text-white caret-red-800 rounded-lg"
+                className="w-[90%] mt-5 p-2 pb-48 bg-transparent placeholder-white placeholder:text-sm border-b border-gray-300 focus:border-purple-500 focus:outline-none resize-none text-white caret-red-800 rounded-none transition duration-300"
                 placeholder="Message"
                 name="message"
                 max="200"
@@ -154,9 +132,10 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
-              <div>
+
+              <div className="mt-3">
                 <input
-                  className="btn-send bg-transparent border border-gray-300 text-white p-4 w-2/6 rounded-lg"
+                  className="btn-send bg-transparent border border-gray-300 text-white p-3 w-2/6 rounded-lg hover:bg-purple-500 hover:border-purple-500 transition duration-300 cursor-pointer"
                   type="submit"
                   value="SEND"
                 />
@@ -166,7 +145,9 @@ const Contact = () => {
                   </span>
                 )}
                 {errorMessage && (
-                  <span className="lg:text-base text-xs ml-3 lg:ml-5 text-red-600">{errorMessage}</span>
+                  <span className="lg:text-base text-xs ml-3 lg:ml-5 text-red-600">
+                    {errorMessage}
+                  </span>
                 )}
               </div>
             </form>

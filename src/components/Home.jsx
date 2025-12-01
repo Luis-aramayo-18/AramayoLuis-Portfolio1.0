@@ -275,7 +275,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl  text-white col-[1/6] row-[9/10] lg:col-[7/10] lg:row-[2/3] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl  text-white col-[1/6] row-[9/10] lg:col-[7/10] lg:row-[2/4] lg:h-40 lg:p-4">
           <div className="flex flex-col items-center justify-center h-full">
             <h2 className="sm:text-4xl lg:text-2xl text-2xl font-bold tracking-wide">
               {day}
@@ -289,11 +289,12 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[6/7] lg:col-[7/10] lg:row-[3/8]">
-          <div className="flex justify-between items-center p-4">
+        <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[6/7] lg:col-[7/10] lg:row-[4/8]">
+          <div className="flex justify-between items-center p-4 h-[11%]">
             <h2 className="sm:p-4 sm:text-2xl lg:text-xl lg:p-0 text-lg font-bold tracking-wide">
               {t("home.future-project-card")}
             </h2>
+
             <Link
               to="/projects"
               className="p-2 text-base sm:p-4 sm:text-xl lg:text-base lg:p-0 mt-1 font-medium text-gray-300 hover:text-white hover:underline"
@@ -301,7 +302,8 @@ const Home = () => {
               {t("home.future-project-card-btn")}
             </Link>
           </div>
-          <div className="">
+
+          <div className="h-[89%]">
             <img
               className="w-full h-full block object-cover rounded-b-2xl"
               src="/card-ultimoproyecto.webp"

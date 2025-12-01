@@ -179,6 +179,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://digitalworld-tuc.netlify.app/"
+                  aria-disabled="true"
                 >
                   <i className="icon-project text-xl font-thin mr-5 bx bx-navigation"></i>
                 </a>
