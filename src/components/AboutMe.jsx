@@ -7,22 +7,18 @@ const AboutMe = () => {
   const { t } = useTranslation("global");
 
   const openCV = () => {
-    const rutaCV = '/AramayoLuisCv-dev.pdf';
-    window.open(rutaCV, '_blank');
+    const rutaCV = "/AramayoLuisCv-dev.pdf";
+    window.open(rutaCV, "_blank");
   };
 
   return (
     <>
       <section className="flex justify-center flex-col lg:flex lg:w-4/5 lg:relative lg:flex-col lg:justify-center lg:h-full relative z-30">
-        <section className="w-full mt-6 text-center text-4xl font-light tracking-widest text-white lg:mt-0 lg:p-10 lg:text-center">
-          <h2 className="">{t("about.title")}</h2>
-        </section>
-
         <section className="card-about border-white p-8 flex items-center mt-12 mx-5 lg:p-0 lg:my-0 lg:mx-10">
           <div className="lg:w-2/6 lg:block hidden">
             <img
               className="w-full h-auto block object-cover"
-              src="/avatar-about.png"
+              src="/avatar-about.webp"
               alt="imagen avatar"
             />
           </div>
@@ -30,8 +26,12 @@ const AboutMe = () => {
           <div className="about-contain lg:w-4/6 lg:py-20 lg:pr-6 overflow-y-auto">
             <article>
               <div className="flex items-center">
-                <h2 className=" text-white text-2xl lg:text-4xl">ARAMAYO LUIS</h2>
-                <p className="text-purple-500 ml-5 mt-1 lg:mt-3 lg:ml-4">Argentina</p>
+                <h2 className=" text-white text-2xl lg:text-4xl">
+                  ARAMAYO LUIS
+                </h2>
+                <p className="text-purple-500 ml-5 mt-1 lg:mt-3 lg:ml-4">
+                  Argentina
+                </p>
               </div>
 
               <p className="text-gray-300 mt-4">{t("about.content")}</p>
@@ -51,10 +51,19 @@ const AboutMe = () => {
                 <li className="mb-10 ms-6">
                   <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
                   <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                    Technical degree in Programming
+                  </h3>
+                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                    National Technological University (UTN), 2024
+                  </time>
+                </li>
+                <li className="mb-10 ms-6">
+                  <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
+                  <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                     Curse English
                   </h3>
                   <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    Curse-English 2023
+                    Institute Alfredo Coviello, 2018/2021
                   </time>
                 </li>
                 <li className="mb-10 ms-6">
@@ -72,7 +81,7 @@ const AboutMe = () => {
                     Higher Technician in Business Administration
                   </h3>
                   <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    Institute Alfredo Coviello, 2018-2021
+                    Institute Alfredo Coviello, 2018/2021
                   </time>
                 </li>
               </ol>
@@ -83,7 +92,6 @@ const AboutMe = () => {
                 {t("about.subtitle-whatido")}
               </h2>
               <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:grid-rows-2 mt-10">
-
                 <div className="lg:col-[1/2] lg:row-[1/2] col-[1/3] row-[1/2] border border-gray-400 rounded-2xl p-4">
                   <h4 className="text-xl text-purple-500">
                     {t("about.title-developer")}

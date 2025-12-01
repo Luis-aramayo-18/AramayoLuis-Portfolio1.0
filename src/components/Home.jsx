@@ -106,7 +106,7 @@ const Home = () => {
           <div className="hidden lg:block lg:w-2/6 lg:h-full">
             <img
               className="lg:w-full lg:h-full lg:object-cover lg:rounded-e-2xl"
-              src="/me-home.jpg"
+              src="/me-home.webp"
               alt="Aramayo Luis imagen portfolio"
             />
           </div>
@@ -130,7 +130,7 @@ const Home = () => {
                 +
               </p>
               <h2 className="text-5xl sm:text-8xl lg:text-4xl font-bold text-purple-500 bounce-top">
-                1
+                2
               </h2>
             </div>
             <p className="text-base font-medium tracking-wider sm:text-xl lg:text-lg">
@@ -158,7 +158,7 @@ const Home = () => {
         <article className="card rounded-2xl text-white col-[6/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
-            src="/wallpaper-home.jpg"
+            src="/wallpaper-home.webp"
             alt=""
           />
         </article>
@@ -251,7 +251,7 @@ const Home = () => {
             <div className="flex w-1/4 lg:w-1/6 flex-col items-center justify-center mt-1">
               <img
                 className="h-7 w-7 sm:h-10 sm:w-10 lg:h-7 lg:w-7 bg-white rounded-full p-1"
-                src="/icons8-express-js-50.png"
+                src="/icons8-express-js-50.webp"
                 alt="logo de express js"
               />
               <span className="text-base sm:text-xl lg:text-lg text-gray-400 mt-1">
@@ -269,7 +269,7 @@ const Home = () => {
             </h2>
             <img
               className="h-5 w-5 sm:h-8 sm:w-8 lg:h-7 lg:w-7 mb-8"
-              src="/logo-argentina-home.png"
+              src="/logo-argentina-home.webp"
               alt="bandera de la argentina"
             />
           </div>
@@ -289,7 +289,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl text-white col-[1/11] row-[6/7] lg:col-[7/10] lg:row-[3/8]">
+        <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[6/7] lg:col-[7/10] lg:row-[3/8]">
           <div className="flex justify-between items-center p-4">
             <h2 className="sm:p-4 sm:text-2xl lg:text-xl lg:p-0 text-lg font-bold tracking-wide">
               {t("home.future-project-card")}
@@ -301,7 +301,7 @@ const Home = () => {
               {t("home.future-project-card-btn")}
             </Link>
           </div>
-          <div>
+          <div className="">
             <img
               className="w-full h-full block object-cover rounded-b-2xl"
               src="/imagen-fondo-ultimoproyecto.jpg"
