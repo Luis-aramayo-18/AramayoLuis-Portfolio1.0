@@ -34,72 +34,92 @@ const AboutMe = () => {
                 </p>
               </div>
 
-              <p className="text-gray-200 font-medium mt-4">{t("about.content")}</p>
+              <div
+                className="px-4 py-8 rounded-2xl p-4 
+                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl mt-10"
+              >
+                <p className="text-gray-200">{t("about.content")}</p>
 
-              <a onClick={openCV} href="">
-                <div className="btn-cv text-center text-lg text-white border border-gray-400 w-32 mt-6 px-4 py-3 rounded-lg">
-                  RESUME
-                </div>
-              </a>
+                <a onClick={openCV} href="">
+                  <div className="btn-cv text-center text-lg text-white border border-gray-400 w-32 mt-6 px-4 py-3 rounded-lg">
+                    RESUME
+                  </div>
+                </a>
+              </div>
             </article>
 
-            <article className="mt-20">
+            <article className="mt-20 ">
               <h2 className=" text-white text-2xl lg:text-4xl">
                 {t("about.subtitle-education")}
               </h2>
-              <ol className="relative border-s border-gray-200 dark:border-gray-700 ml-8 mt-10">
-                <li className="mb-10 ms-6">
-                  <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
-                  <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
-                    Technical degree in Programming
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-300 dark:text-gray-200">
-                    National Technological University (UTN), 2024
-                  </time>
-                </li>
-                <li className="mb-10 ms-6">
-                  <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
-                  <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-400 dark:text-purple-500">
-                    Curse English
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
-                    Institute Alfredo Coviello, 2018/2021
-                  </time>
-                </li>
-                <li className="mb-10 ms-6">
-                  <div className="w-4 h-4 mt-1 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
-                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
-                    FullStack Developer
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
-                    RollingCode School, 2022/2023
-                  </time>
-                </li>
-                <li className="ms-6">
-                  <div className="w-4 h-4 mt-1 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
-                  <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
-                    Higher Technician in Business Administration
-                  </h3>
-                  <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
-                    Institute Alfredo Coviello, 2018/2021
-                  </time>
-                </li>
-              </ol>
+              <div
+                className="px-4 py-8 rounded-2xl p-4 
+                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl mt-10"
+              >
+                <ol className="relative border-s border-gray-200 dark:border-gray-200 ml-8">
+                  <li className="mb-10 ms-6">
+                    <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
+                    <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
+                      Technical degree in Programming
+                    </h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-300 dark:text-gray-200">
+                      National Technological University (UTN), 2024
+                    </time>
+                  </li>
+
+                  <li className="mb-10 ms-6">
+                    <div className="w-4 h-4 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
+                    <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-400 dark:text-purple-500">
+                      Curse English
+                    </h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
+                      Institute Alfredo Coviello, 2018/2021
+                    </time>
+                  </li>
+
+                  <li className="mb-10 ms-6">
+                    <div className="w-4 h-4 mt-1 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
+                    <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
+                      FullStack Developer
+                    </h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
+                      RollingCode School, 2022/2023
+                    </time>
+                  </li>
+
+                  <li className="ms-6">
+                    <div className="w-4 h-4 mt-1 ml-1 bg-purple-500 rounded-full absolute flex items-center justify-center -start-3"></div>
+                    <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-purple-500">
+                      Higher Technician in Business Administration
+                    </h3>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
+                      Institute Alfredo Coviello, 2018/2021
+                    </time>
+                  </li>
+                </ol>
+              </div>
             </article>
 
             <article className="mt-20">
               <h2 className=" text-white text-2xl lg:text-4xl">
                 {t("about.subtitle-whatido")}
               </h2>
-              <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:grid-rows-2 mt-10">
-                <div className="lg:col-[1/2] lg:row-[1/2] col-[1/3] row-[1/2] border border-gray-400 rounded-2xl p-4">
+
+              <div className="grid grid-cols-1 grid-rows-3 gap-5 lg:grid-cols-2 lg:grid-rows-2 mt-10">
+                <div
+                  className="lg:col-[1/2] lg:row-[1/2] rounded-2xl p-4 
+                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-developer")}
                   </h4>
                   <p className="mt-2 text-gray-200">{t("about.developer")}</p>
                 </div>
 
-                <div className="lg:col-[2/3] lg:row-[1/2] col-[1/3] row-[2/3] border border-gray-400 rounded-2xl p-4">
+                <div
+                  className="lg:col-[2/3] lg:row-[1/2] rounded-2xl p-4 
+                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-ux/ui")}
                   </h4>
@@ -108,7 +128,10 @@ const AboutMe = () => {
                   </p>
                 </div>
 
-                <div className="lg:col-[1/2] lg:row-[2/3] col-[1/3] border border-gray-400 rounded-2xl p-4">
+                <div
+                  className="lg:col-[1/2] lg:row-[2/3] rounded-2xl p-4 
+                       bg-black/30 backdrop-blur-md border border-white/10 shadow-xl"
+                >
                   <h4 className="text-xl font-semibold text-purple-500">
                     {t("about.title-ecommerse")}
                   </h4>
