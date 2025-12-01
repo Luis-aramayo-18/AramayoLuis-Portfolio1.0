@@ -23,7 +23,7 @@ const AboutMe = () => {
             />
           </div>
 
-          <div className="about-contain  lg:w-4/6 lg:py-20 lg:pr-6 overflow-y-auto">
+          <div className="about-contain lg:w-4/6 lg:py-20 lg:pr-6 overflow-y-auto">
             <article>
               <div className="flex items-center">
                 <h2 className=" text-white text-2xl lg:text-4xl">
@@ -109,7 +109,7 @@ const AboutMe = () => {
 
               <div className="grid grid-cols-1 grid-rows-3 gap-5 lg:grid-cols-2 lg:grid-rows-2 mt-10">
                 <div
-                  className="lg:col-[2/3] lg:row-[1/2] rounded-2xl p-4 
+                  className="lg:col-[1/2] lg:row-[1/2] rounded-2xl p-4 
                        card-about"
                 >
                   <h4 className="text-xl font-semibold text-purple-500">
