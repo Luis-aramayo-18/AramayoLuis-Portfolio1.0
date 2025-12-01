@@ -110,7 +110,7 @@ const Projects = () => {
           </article>
 
           {/* ------------------ SEGUNDA COL--------------------- */}
-          <article className="card-porjects col-[1/3] row-[4/5] lg:col-[2/3] lg:row-[1/3] lg:overflow-hidden cursor-pointer">
+          <article className="card-porjects col-[1/3] row-[3/4] lg:col-[2/3] lg:row-[1/3] lg:overflow-hidden cursor-pointer">
             <div className="h-[80%]">
               <img
                 className="w-full h-full block object-cover rounded-t-2xl"
