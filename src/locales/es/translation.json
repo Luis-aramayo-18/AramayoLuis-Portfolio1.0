@@ -1,39 +1,39 @@
-{   
-    "nav": {
-        "about": "Sobre mi",
-        "projects": "Proyectos",
-        "contact": "Contacto"
-    },
-    "home": {
-        "title-primary-card": "DESARROLLADOR WEB ",
-        "content-primary-card": "Desarrollador web apasionado y creativo con experiencia en proyectos impactantes. Me gusta Transformar ideas en código eficiente para crear experiencias digitales atractivas y funcionales. ¡Descubre mi portfolio!",
-        "projects-card": "PROYECTOS",
-        "experience-card": "EXPERIENCIA",
-        "title-technologies-card": "TECNOLOGÍAS",
-        "future-project-card": "FUTURO PROYECTO",
-        "future-project-card-btn": "ver mas"
-    },
-    "about": {
-        "title": "SOBRE MI",
-        "content": "Hola, mi nombre es Luis y soy de Tucumán, Argentina. Actualmente estoy buscando mi primer trabajo como desarrollador de software. Estoy especializado en desarrollo web, particularmente en frontend, aunque también tengo conocimientos en backend y puedo navegar en ambas áreas. A mediados de 2022 descubrí este hermoso mundo de la programación y desde entonces he completado varios proyectos que me han ayudado a moldear mis habilidades como programador. Siempre me esfuerzo por encontrar las soluciones más efectivas y sencillas a los problemas. Las tecnologías con las que más disfruto trabajar son HTML, CSS y React. Me considero una persona altamente comprometida y dedicada. Gracias a este compromiso, obtuve con orgullo una tecnicatura en administración de empresas y completé un curso intensivo como desarrollador full-stack, todo mientras trabajaba en un campo diferente y tenia otras responsabilidades. Sin embargo, mi pasión por aprender está lejos de terminar. Soy un eterno aprendiz, en busca de un crecimiento profesional continuo, con ganas de nutrir mis conocimientos y dispuesto a aportar mis ideas y habilidades para lograr los objetivos marcados.",
-        "subtitle-education": "EDUCACIÓN",
-        "subtitle-whatido": "QUE HAGO ?",
-        "title-developer": "Desarrollador",
-        "title-ux/ui": "Diseño UX/UI",
-        "title-ecommerse": "Sitios Ecommerse",
-        "developer": "Como desarrollador, mi objetivo es crear soluciones eficientes y sencillas. Me concentro en escribir código limpio y mantenible, siguiendo las mejores prácticas. Me esfuerzo por mantenerme actualizado con nuevas actualizaciones y tecnologías.",
-        "design-ux/ui": "Me concentro en crear interfaces intuitivas y visualmente atractivas para mejorar la experiencia y satisfacción del usuario.",
-        "ecommerse": "Me apasiona crear plataformas seguras y atractivas para impulsar negocios en línea con funcionalidades eficientes, con el objetivo de mejorar la experiencia de compra del cliente."
-    },
-    "projects": {
-        "title": "TODOS MIS PROYECTOS",
-        "developing": "en desarrollo"
-    },
-    "contact": {
-        "title": "CONTACTO",
-        "subtitle": "ESTAS LISTO PARA LLEVAR TUS IDEAS A LA WEB ?",
-        "content": "Estoy aqui para ayudarte, si estas interesado en mis servicios y quiere que trabajemos juntos, Obten un %15 de descuentos para futuros clientes. Si solo tienes alguna sugerencia o pregunta, por favor no dudes en contactarme en mis redes.",
-        "subtitle-2": "Contácteme",
-        "btn": "ENVIAR"
-    }
+{
+  "nav": {
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title-primary-card": "DESARROLLADOR WEB ",
+    "content-primary-card": "Desarrollador web apasionado y creativo con experiencia en proyectos impactantes. Me gusta Transformar ideas en código eficiente para crear experiencias digitales atractivas y funcionales. ¡Descubre mi portfolio!",
+    "projects-card": "PROYECTOS",
+    "experience-card": "EXPERIENCIA",
+    "title-technologies-card": "TECNOLOGÍAS",
+    "future-project-card": "FUTURO PROYECTO",
+    "future-project-card-btn": "ver mas"
+  },
+  "about": {
+    "title": "SOBRE MI",
+    "content": "Mi nombre es Luis y soy de Tucumán, Argentina. Actualmente estoy buscando mi primer trabajo como desarrollador de software. Estoy especializado en desarrollo web, particularmente en frontend, aunque también tengo conocimientos en backend y puedo manejarme en ambas áreas. \n\nA mediados de 2022 descubrí este hermoso mundo de la programación y desde entonces he completado varios proyectos que me han ayudado a moldear mis habilidades como programador. Siempre me esfuerzo por encontrar las soluciones más efectivas y sencillas a los problemas. Las tecnologías con las que más disfruto trabajar son HTML, CSS y React. \n\nMe considero una persona altamente comprometida y dedicada. Gracias a este compromiso, obtuve con orgullo una tecnicatura en administración de empresas y completé un curso intensivo como desarrollador full-stack, todo mientras trabajaba en un campo diferente y tenia otras responsabilidades. Sin embargo, mi pasión por aprender está lejos de terminar. Soy un eterno aprendiz, en busca de un crecimiento profesional continuo, con ganas de nutrir mis conocimientos y dispuesto a aportar mis ideas y habilidades para lograr los objetivos marcados.",
+    "subtitle-education": "EDUCACIÓN",
+    "subtitle-whatido": "QUE HAGO ?",
+    "title-developer": "Desarrollador",
+    "title-ux/ui": "Diseño UX/UI",
+    "title-ecommerse": "Sitios Ecommerse",
+    "developer": "Como desarrollador, mi objetivo es crear soluciones eficientes y sencillas. Me concentro en escribir código limpio y mantenible, siguiendo las mejores prácticas. Me esfuerzo por mantenerme actualizado con nuevas actualizaciones y tecnologías.",
+    "design-ux/ui": "Me concentro en crear interfaces intuitivas y visualmente atractivas para mejorar la experiencia y satisfacción del usuario.",
+    "ecommerse": "Me apasiona crear plataformas seguras y atractivas para impulsar negocios en línea con funcionalidades eficientes, con el objetivo de mejorar la experiencia de compra del cliente."
+  },
+  "projects": {
+    "title": "TODOS MIS PROYECTOS",
+    "developing": "en desarrollo"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "subtitle": "ESTAS LISTO PARA LLEVAR TUS IDEAS A LA WEB ?",
+    "content": "Estoy aqui para ayudarte, si estas interesado en mis servicios y quiere que trabajemos juntos, Obten un %15 de descuentos para futuros clientes. Si solo tienes alguna sugerencia o pregunta, por favor no dudes en contactarme en mis redes.",
+    "subtitle-2": "Contácteme",
+    "btn": "ENVIAR"
+  }
 }

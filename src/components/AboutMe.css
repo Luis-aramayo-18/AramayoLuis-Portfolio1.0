@@ -5,7 +5,7 @@
     border-radius: 20px;
     border: 1px solid rgb(11, 11, 11, 0.2);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.9);
-
+    z-index: 999;
     transition: border-color 0.2s ease;
 }
 
@@ -17,28 +17,3 @@
   background-color: rgb(75, 9, 137);
   border-color: white;
 }
-
-.about-contain{
-   height: 35rem;
-}
-
-.about-contain::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  .about-contain::-webkit-scrollbar:hover{
-    width: 40px;
-  }
-  
-  .about-contain::-webkit-scrollbar-thumb {
-    background-color: grey;
-  }
-
-  .about-contain::-webkit-scrollbar-thumb:hover {
-    background-color: aqua;
-  }
-  
-  .about-contain::-webkit-scrollbar-track {
-    background-color: transparent;
-    margin: 5rem 0;
-  }

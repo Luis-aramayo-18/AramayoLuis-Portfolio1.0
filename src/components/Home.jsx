@@ -62,6 +62,7 @@ const Home = () => {
             <p className="text-3xl mt-1 tracking-wide font-medium sm:text-6xl sm:mt-2 lg:text-5xl lg:mt-2">
               {t("home.title-primary-card")}
             </p>
+
             <div className="flex gap-4 mt-2 sm:mt-4 lg:flex lg:gap-5 lg:mt-4">
               <div>
                 <a
@@ -99,6 +100,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
+
             <p className="mt-4 text-gray-300 sm:text-xl sm:mt-6 lg:text-base lg:mt-6">
               {t("home.content-primary-card")}
             </p>
@@ -112,7 +114,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl h-44 text-white col-[1/11] row-[4/5] sm:h-56 lg:col-[1/3] lg:row-[4/5] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl h-44 text-white col-[1/11] row-[5/6] sm:h-56 lg:col-[1/3] lg:row-[4/5] lg:h-40 lg:p-4">
           <div className="mt-1 flex flex-col justify-center items-center h-full">
             <h2 className="text-2xl font-bold text-purple-500 tracking-wider bounce-top sm:text-4xl lg:text-2xl">
               FRONTEND
@@ -123,7 +125,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl h-44 text-white col-[1/6] row-[5/6] sm:h-56 lg:col-[3/5] lg:row-[4/5] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl h-44 text-white col-[1/6] row-[6/7] sm:h-56 lg:col-[3/5] lg:row-[4/5] lg:h-40 lg:p-4">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
               <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">
@@ -139,7 +141,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl h-44  text-white col-[6/11] row-[5/6] sm:h-56 lg:col-[5/7] lg:row-[4/5] lg:h-40">
+        <article className="card rounded-2xl h-44  text-white col-[6/11] row-[6/7] sm:h-56 lg:col-[5/7] lg:row-[4/5] lg:h-40">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
               <p className="text-3xl mt-2 sm:mt-8 sm:text-5xl lg:mt-2 lg:text-3xl">
@@ -155,7 +157,7 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl text-white col-[6/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
+        <article className="card rounded-2xl text-white col-[1/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
             src="/wallpaper-home.webp"
@@ -262,9 +264,9 @@ const Home = () => {
         </article>
 
         {/* ----------------SEGUNDA COL-------------- */}
-        <article className="card rounded-2xl  text-white col-[1/6] row-[8/9] lg:col-[7/10] lg:row-[1/2] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl  text-white col-[1/6] row-[4/5] lg:col-[7/10] lg:row-[1/2] lg:h-40 lg:p-4">
           <div className="flex items-center justify-center h-full">
-            <h2 className="sm:text-4xl lg:text-3xl text-2xl font-bold tracking-wide text-purple-500 bounce-top">
+            <h2 className="lg:text-3xl text-lg font-bold tracking-wide text-purple-500 bounce-top">
               ARGENTINA
             </h2>
             <img
@@ -275,21 +277,21 @@ const Home = () => {
           </div>
         </article>
 
-        <article className="card rounded-2xl  text-white col-[1/6] row-[9/10] lg:col-[7/10] lg:row-[2/4] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl text-white col-[6/11] row-[4/5] lg:col-[7/10] lg:row-[2/4] lg:h-40 lg:p-4 py-8">
           <div className="flex flex-col items-center justify-center h-full">
-            <h2 className="sm:text-4xl lg:text-2xl text-2xl font-bold tracking-wide">
+            <h2 className="lg:text-2xl font-bold tracking-wide">
               {day}
             </h2>
-            <p className="text-sm sm:text-2xl lg:text-base">
+            <p className="text-sm lg:text-base">
               {month}, {dayOfMonth}
             </p>
-            <h2 className="sm:text-3xl text-xl lg:text-xl font-medium text-purple-500 bounce-top">
+            <h2 className="text-lg lg:text-xl font-medium text-purple-500 bounce-top">
               {hours}:{minutes}
             </h2>
           </div>
         </article>
 
-        <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[6/7] lg:col-[7/10] lg:row-[4/8]">
+        <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[7/8] lg:col-[7/10] lg:row-[4/8]">
           <div className="flex justify-between items-center p-4 h-[11%]">
             <h2 className="sm:p-4 sm:text-2xl lg:text-xl lg:p-0 text-lg font-bold tracking-wide">
               {t("home.future-project-card")}
