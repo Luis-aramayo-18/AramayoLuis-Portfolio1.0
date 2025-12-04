@@ -27,8 +27,8 @@ const AboutMe = () => {
         <div className="lg:w-[60%] lg:mt-10 lg:ps-10 mb-14 px-4">
           {/* ------- ABOUT ------- */}
           <div className="mt-10">
-            <h2 className=" text-white text-2xl lg:text-4xl uppercase">
-              Who am I?
+            <h2 className=" text-white text-2xl lg:text-4xl uppercase text-center">
+              Who am I ?
             </h2>
 
             <div className="card-about px-4 py-8 mt-10 lg:col-[2/3] lg:row-[1/2] z-30">
@@ -50,7 +50,7 @@ const AboutMe = () => {
 
           {/* ------- EDUCATION ------- */}
           <div className="mt-20">
-            <h2 className=" text-white text-2xl lg:text-4xl">
+            <h2 className=" text-white text-2xl lg:text-4xl text-center">
               {t("about.subtitle-education")}
             </h2>
             <div className="card-about px-4 py-8 p-4 mt-10 lg:col-[2/3] lg:row-[1/2]">
@@ -100,7 +100,7 @@ const AboutMe = () => {
 
           {/* ------- WHAT I DO ------- */}
           <div className="mt-20">
-            <h2 className=" text-white text-2xl lg:text-4xl">
+            <h2 className=" text-white text-2xl lg:text-4xl text-center">
               {t("about.subtitle-whatido")}
             </h2>
 

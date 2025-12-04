@@ -1,0 +1,45 @@
+/* Coloca este código en tu archivo CSS */
+
+/* --- 1. ESTILO DE LAS FLECHAS DE NAVEGACIÓN --- */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    /* Color de la flecha (ícono SVG) */
+    --swiper-navigation-color: #A855F7; /* purple-500 */
+    /* Tamaño de la flecha */
+    --swiper-navigation-size: 10px; 
+    
+    /* Fondo circular y sombra para modernizar el botón */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+    background-color: rgba(168, 85, 247, 0.2); /* Fondo transparente púrpura al pasar el mouse */
+    opacity: 1;
+}
+
+/* --- 2. ESTILO DE LOS INDICADORES DE PAGINACIÓN (DOTS) --- */
+.mySwiper .swiper-pagination-bullet {
+    /* Color del punto inactivo */
+    background: #6B7280; /* Gris */
+    opacity: 0.7;
+    width: 10px;
+    height: 10px;
+    margin: 0 6px !important; /* Ajuste de espacio entre puntos */
+    transition: all 0.3s;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    /* Color del punto activo (púrpura) */
+    background: #A855F7; /* purple-500 */
+    width: 14px; /* Hacer el punto activo un poco más grande */
+    height: 14px;
+    box-shadow: 0 0 5px #A855F7;
+    opacity: 1;
+}
