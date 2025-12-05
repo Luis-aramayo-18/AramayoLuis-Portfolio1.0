@@ -34,6 +34,7 @@ const ProjectRollingFoodDetails = () => {
           Rolling Food
         </h2>
 
+        {/* ------------------SLIDER--------------------- */}
         <div className="relative">
           <Swiper
             modules={[Navigation, Pagination]}
@@ -51,6 +52,7 @@ const ProjectRollingFoodDetails = () => {
           </Swiper>
         </div>
 
+        {/* ------------------INFO--------------------- */}
         <div className="card-about px-4 py-8 my-10">
           <div className="space-y-4 text-gray-200">
             <p>

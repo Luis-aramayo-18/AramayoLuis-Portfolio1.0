@@ -46,6 +46,7 @@ const Contact = () => {
     <>
       <section className="z-30 lg:w-4/5 lg:h-full lg:overflow-y-auto lg:relative">
         <section className="grid w-full h-full grid-cols-10 grid-rows-7 lg:px-10 gap-6 relative z-30 my-10">
+          {/* ------------------BANNER--------------------- */}
           <div className="card-contact mb-5 lg:mb-0 mx-5 lg:mx-0 col-[1/11] row-[4/8] relative z-40 sm:py-10 lg:py-6 lg:border-2 border border-white lg:w-custom-w lg:col-[6/12] lg:row-[1/8]">
             <article className="p-6">
               <h2 className="sm:text-3xl lg:text-2xl text-lg text-white tracking-widest font mb-2">
@@ -62,7 +63,9 @@ const Contact = () => {
             <article className="px-6">
               <div className="flex items-center gap-3 text-lg sm:text-2xl lg:text-xl text-white">
                 <i className="sm:text-4xl lg:text-lg bx bx-mobile-alt text-purple-500"></i>
-                <p className="lg:text-[18px] text-[14px] font-medium">+54 9 381 576-5255</p>
+                <p className="lg:text-[18px] text-[14px] font-medium">
+                  +54 9 381 576-5255
+                </p>
               </div>
               <div className="flex items-center gap-3 text-lg sm:text-2xl lg:text-xl text-white mt-2">
                 <i className="sm:text-4xl lg:text-lg bx bx-map-pin text-purple-500"></i>
@@ -104,6 +107,7 @@ const Contact = () => {
             </article>
           </div>
 
+          {/* ------------------FORM--------------------- */}
           <div className="card-contact mx-5 lg:mx-0 relative col-[1/11] row-[1/4] z-30 sm:py-10 lg:p-0 lg:col-[1/12] lg:row-[1/5] lg:mt-10 lg:grid lg:grid-cols-10">
             <form
               ref={form}

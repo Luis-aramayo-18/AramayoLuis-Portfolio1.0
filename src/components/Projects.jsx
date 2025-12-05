@@ -33,7 +33,7 @@ const Projects = () => {
           {/* ------------------ VOUCHERS MANAGER--------------------- */}
           <Link
             to="/projects/vouchers-manager-details"
-            className="card-porjects col-[1/3] row-[4/5] lg:col-[2/3] lg:row-[3/5] lg:overflow-hidden cursor-pointer"
+            className="card-porjects col-[1/3] row-[1/2] lg:col-[1/2] lg:row-[1/3] lg:overflow-hidden cursor-pointer"
           >
             <div className="h-[80%]">
               <img
@@ -51,6 +51,9 @@ const Projects = () => {
                   target="_blank"
                   href="https://digitalworld-tuc.netlify.app/"
                   aria-disabled="true"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
                 >
                   <i className="icon-project text-xl font-thin mr-5 bx bx-navigation"></i>
                 </a>
@@ -75,7 +78,14 @@ const Projects = () => {
                 <h2 className="text-2xl font-semibold tracking-widest text-white">
                   DIGITAL WORLD
                 </h2>
-                <a target="_blank" href="https://digitalworld-tuc.netlify.app/">
+                <a
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  target="_blank"
+                  aria-disabled="true"
+                  href="https://digitalworld-tuc.netlify.app/"
+                >
                   <i className="icon-project text-xl font-thin mr-5 bx bx-navigation"></i>
                 </a>
               </div>
@@ -99,7 +109,14 @@ const Projects = () => {
                 <h2 className="text-2xl font-semibold tracking-widest text-white">
                   ROLLING FOOD
                 </h2>
-                <a target="_blank" href="https://devsfood-rolling.netlify.app/">
+                <a
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  aria-disabled="true"
+                  target="_blank"
+                  href="https://devsfood-rolling.netlify.app/"
+                >
                   <i className="icon-project text-xl font-thin mr-5 bx bx-navigation"></i>
                 </a>
               </div>
@@ -109,7 +126,7 @@ const Projects = () => {
           {/* ------------------ LOKY CUTS--------------------- */}
           <Link
             to="/"
-            className="card-porjects col-[1/3] row-[1/2] lg:col-[1/2] lg:row-[1/3] lg:overflow-hidden cursor-pointer"
+            className="card-porjects col-[1/3] row-[4/5] lg:col-[2/3] lg:row-[3/5] lg:overflow-hidden cursor-pointer"
           >
             <div className="h-[80%]">
               <img

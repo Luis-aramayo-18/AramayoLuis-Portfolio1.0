@@ -33,7 +33,7 @@ const ProjectDigitalWorldDetails = () => {
         <h2 className="text-white text-2xl lg:text-4xl text-center uppercase mt-10">
           Digital World
         </h2>
-
+        {/* ------------------SLIDER--------------------- */}
         <div className="relative">
           <Swiper
             modules={[Navigation, Pagination]}
@@ -67,7 +67,8 @@ const ProjectDigitalWorldDetails = () => {
             {renderSlide("/digital-world-6.webp", null, 5)}
           </Swiper>
         </div>
-
+        
+        {/* ------------------INFO--------------------- */}
         <div className="card-about px-4 py-8 my-10">
           <div className="space-y-4 text-gray-200">
             <p>

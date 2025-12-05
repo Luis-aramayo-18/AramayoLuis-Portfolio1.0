@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { defineElement } from "lord-icon-element";
 import Lottie from "lottie-web";
@@ -12,6 +12,7 @@ const Header = () => {
   const { i18n } = useTranslation();
   const { t } = useTranslation("global");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchParams, setSearchParams] = useSearchParams();
   const menuRef = useRef(null);
 
   const openMenu = () => {
@@ -21,7 +22,11 @@ const Header = () => {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target) && isMenuOpen) {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        isMenuOpen
+      ) {
         setIsMenuOpen(false);
       }
     };
@@ -32,10 +37,18 @@ const Header = () => {
       document.removeEventListener("click", handleOutsideClick);
     };
   }, [isMenuOpen]);
-  
 
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
+  const changeLanguage = (newLanguage) => {
+    i18n.changeLanguage(newLanguage);
+
+    setSearchParams((prevParams) => {
+      prevParams.set("lang", newLanguage);
+      return prevParams;
+    });
+
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
   };
 
   return (
@@ -54,7 +67,6 @@ const Header = () => {
           <i className="bx bx-menu"></i>
         )}
       </div>
-
       {isMenuOpen && (
         <section
           ref={menuRef}
@@ -88,10 +100,9 @@ const Header = () => {
               alt="logo bandera de España"
             />
           </div>
-
           <NavLink
             className="border-4 rounded-full bg-purple-950 shadow-md shadow-purple-500"
-            to="/"
+            to={`/?${searchParams.toString()}`}
           >
             <img
               className="h-32 w-32 sm:h-44 sm:w-44"
@@ -99,12 +110,11 @@ const Header = () => {
               alt="logo de la barra de navegación"
             />
           </NavLink>
-
           <nav className="nav mb-6 mt-6">
             <ul className="flex flex-col gap-4">
               <li>
                 <NavLink
-                  to="/about"
+                  to={`/about?${searchParams.toString()}`}
                   className={({ isActive }) =>
                     isActive
                       ? "btn-nav-3 text-xl sm:text-2xl font-medium flex items-center gap-3 tracking-wide text-white underline"
@@ -121,7 +131,6 @@ const Header = () => {
                   {t("nav.about")}
                 </NavLink>
               </li>
-
               <li>
                 <NavLink
                   className={({ isActive }) =>
@@ -129,7 +138,7 @@ const Header = () => {
                       ? "btn-nav-3 text-xl sm:text-2xl font-medium flex items-center gap-3 tracking-wide text-white underline"
                       : "btn-nav-3 text-xl sm:text-2xl font-medium flex items-center gap-3 tracking-wide text-gray-400"
                   }
-                  to="/projects"
+                  to={`/projects?${searchParams.toString()}`}
                 >
                   <lord-icon
                     target=".btn-nav-3"
@@ -141,7 +150,6 @@ const Header = () => {
                   {t("nav.projects")}
                 </NavLink>
               </li>
-
               <li>
                 <NavLink
                   className={({ isActive }) =>
@@ -149,7 +157,7 @@ const Header = () => {
                       ? "btn-nav-3 text-xl sm:text-2xl font-medium flex items-center gap-3 tracking-wide text-white underline"
                       : "btn-nav-3 text-xl sm:text-2xl font-medium flex items-center gap-3 tracking-wide text-gray-400"
                   }
-                  to="/contact"
+                  to={`/contact?${searchParams.toString()}`}
                 >
                   <lord-icon
                     target=".btn-nav-3"
@@ -163,13 +171,11 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-
           <div className="flex justify-center absolute bottom-5 text-sm sm:text-base text-gray-400">
             <span>© Aramayo Luis 2024</span>
           </div>
         </section>
       )}
-
       <section className="hidden hamburger-menu lg:w-1/5 lg:h-screen lg:sticky lg:top-0 lg:left-0 lg:flex lg:flex-col lg:items-center lg:justify-center">
         <div className="lg:flex lg:gap-3 lg:absolute lg:top-5 lg:right-5">
           <img
@@ -182,7 +188,7 @@ const Header = () => {
                 : ""
             }`}
             src="/en-icon.webp"
-              alt="logo bander Inglaterra"
+            alt="logo bander Inglaterra"
           />
           <img
             onClick={() => {
@@ -194,26 +200,24 @@ const Header = () => {
                 : ""
             }`}
             src="/es-icon.webp"
-              alt="logo bandera de España"
+            alt="logo bandera de España"
           />
         </div>
-
         <NavLink
           className="border-4 rounded-full bg-purple-950 shadow-md shadow-purple-500"
-          to="/"
+          to={`/?${searchParams.toString()}`}
         >
           <img
-            className="h-32 w-32"
+            className="h-32 w-32 sm:h-44 sm:w-44"
             src="/logo-navbar.webp"
             alt="logo de la barra de navegación"
           />
         </NavLink>
-
         <nav className="lg:mt-6">
           <ul className="lg:flex lg:flex-col lg:gap-4">
             <li>
               <NavLink
-                to="/about"
+                to={`/about?${searchParams.toString()}`}
                 className={({ isActive }) =>
                   isActive
                     ? "btn-nav-3 lg:text-lg lg:font-medium lg:flex lg:items-center lg:gap-3 lg:tracking-wide lg:text-white lg:underline"
@@ -230,7 +234,6 @@ const Header = () => {
                 {t("nav.about")}
               </NavLink>
             </li>
-
             <li>
               <NavLink
                 className={({ isActive }) =>
@@ -238,7 +241,7 @@ const Header = () => {
                     ? "btn-nav-3 lg:text-lg lg:font-medium lg:flex lg:items-center lg:gap-3 lg:tracking-wide lg:text-white lg:underline"
                     : "btn-nav-3 lg:text-lg lg:font-medium lg:flex lg:items-center lg:gap-3 lg:tracking-wide lg:text-gray-400"
                 }
-                to="/projects"
+                to={`/projects?${searchParams.toString()}`}
               >
                 <lord-icon
                   target=".btn-nav-3"
@@ -250,7 +253,6 @@ const Header = () => {
                 {t("nav.projects")}
               </NavLink>
             </li>
-
             <li>
               <NavLink
                 className={({ isActive }) =>
@@ -258,7 +260,7 @@ const Header = () => {
                     ? "btn-nav-3 lg:text-lg lg:font-medium lg:flex lg:items-center lg:gap-3 lg:tracking-wide lg:text-white lg:underline"
                     : "btn-nav-3 lg:text-lg lg:font-medium lg:flex lg:items-center lg:gap-3 lg:tracking-wide lg:text-gray-400"
                 }
-                to="/contact"
+                to={`/contact?${searchParams.toString()}`}
               >
                 <lord-icon
                   target=".btn-nav-3"
@@ -272,7 +274,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
         <div className="lg:flex lg:justify-center lg:absolute lg:bottom-5 lg:text-gray-400 lg:text-sm">
           <span>© Aramayo Luis 2024</span>
         </div>

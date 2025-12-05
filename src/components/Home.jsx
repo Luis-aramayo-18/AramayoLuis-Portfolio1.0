@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import "./Home.css";
 
 const Home = () => {
-  const { t } = useTranslation("global");
+  const { t, i18n } = useTranslation("global");
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
 
   const formatNumberWithZero = (number) => {
@@ -13,6 +13,12 @@ const Home = () => {
   };
 
   useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get("lang");
+
+    if (langParam) {
+      i18n.changeLanguage(langParam);
+    }
     const intervalId = setInterval(() => {
       setCurrentDateTime(new Date());
     }, 1000);
@@ -113,7 +119,6 @@ const Home = () => {
             />
           </div>
         </article>
-
         <article className="card rounded-2xl h-44 text-white col-[1/11] row-[5/6] sm:h-56 lg:col-[1/3] lg:row-[4/5] lg:h-40 lg:p-4">
           <div className="mt-1 flex flex-col justify-center items-center h-full">
             <h2 className="text-2xl font-bold text-purple-500 tracking-wider bounce-top sm:text-4xl lg:text-2xl">
@@ -124,7 +129,6 @@ const Home = () => {
             </p>
           </div>
         </article>
-
         <article className="card rounded-2xl h-44 text-white col-[1/6] row-[6/7] sm:h-56 lg:col-[3/5] lg:row-[4/5] lg:h-40 lg:p-4">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
@@ -140,7 +144,6 @@ const Home = () => {
             </p>
           </div>
         </article>
-
         <article className="card rounded-2xl h-44  text-white col-[6/11] row-[6/7] sm:h-56 lg:col-[5/7] lg:row-[4/5] lg:h-40">
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex">
@@ -156,7 +159,6 @@ const Home = () => {
             </p>
           </div>
         </article>
-
         <article className="card rounded-2xl text-white col-[1/11] row-[8/10] lg:col-[1/3] lg:row-[5/8]">
           <img
             className="w-full h-full block object-cover rounded-2xl"
@@ -164,7 +166,6 @@ const Home = () => {
             alt=""
           />
         </article>
-
         <article className="card py-10 sm:px-0 sm:py-20 rounded-2xl p-4 lg:p-4 text-white text-center col-[1/11] row-[7/8]  lg:col-[3/7] lg:row-[5/8] ">
           <div className="mt-4">
             <h2 className="text-2xl font-bold tracking-wider text-purple-500 bounce-top sm:text-4xl lg:text-2xl">
@@ -262,9 +263,8 @@ const Home = () => {
             </div>
           </div>
         </article>
-
         {/* ----------------SEGUNDA COL-------------- */}
-        <article className="card rounded-2xl  text-white col-[1/6] row-[4/5] lg:col-[7/10] lg:row-[1/2] lg:h-40 lg:p-4">
+        <article className="card rounded-2xl  text-white col-[6/11] row-[4/5] lg:col-[7/10] lg:row-[3/4] lg:p-4">
           <div className="flex items-center justify-center h-full">
             <h2 className="lg:text-3xl text-lg font-bold tracking-wide text-purple-500 bounce-top">
               ARGENTINA
@@ -276,12 +276,9 @@ const Home = () => {
             />
           </div>
         </article>
-
-        <article className="card rounded-2xl text-white col-[6/11] row-[4/5] lg:col-[7/10] lg:row-[2/4] lg:h-40 lg:p-4 py-8">
+        <article className="card rounded-2xl text-white col-[1/6] row-[4/5] lg:col-[7/10] lg:row-[1/3] lg:p-4 py-8">
           <div className="flex flex-col items-center justify-center h-full">
-            <h2 className="lg:text-2xl font-bold tracking-wide">
-              {day}
-            </h2>
+            <h2 className="lg:text-2xl font-bold tracking-wide">{day}</h2>
             <p className="text-sm lg:text-base">
               {month}, {dayOfMonth}
             </p>
@@ -290,7 +287,6 @@ const Home = () => {
             </h2>
           </div>
         </article>
-
         <article className="card flex flex-col justify-between max-h-[100%] rounded-2xl text-white col-[1/11] row-[7/8] lg:col-[7/10] lg:row-[4/8]">
           <div className="flex justify-between items-center p-4 h-[11%]">
             <h2 className="sm:p-4 sm:text-2xl lg:text-xl lg:p-0 text-lg font-bold tracking-wide">
