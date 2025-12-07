@@ -49,7 +49,7 @@ const Projects = () => {
                 </h2>
                 <a
                   target="_blank"
-                  href="https://digitalworld-tuc.netlify.app/"
+                  href="https://github.com/Luis-aramayo-18/vouchers-manager"
                   aria-disabled="true"
                   onClick={(e) => {
                     e.stopPropagation();

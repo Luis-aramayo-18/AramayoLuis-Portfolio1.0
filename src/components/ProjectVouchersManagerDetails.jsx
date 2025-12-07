@@ -163,7 +163,6 @@ const ProjectVouchersManagerDetails = () => {
           </div>
 
           <div>
-            {/* TABLA DE TECNOLOGÍAS */}
             <div className="overflow-x-auto rounded-lg shadow-xl border border-purple-500/20 mt-10 text-gray-200">
               <table className="w-full text-sm text-left border-collapse">
                 <thead className="text-xs text-purple-400 uppercase bg-black/30 backdrop-blur-sm">
@@ -204,27 +203,10 @@ const ProjectVouchersManagerDetails = () => {
                 </tbody>
               </table>
             </div>
-            {/* FIN DE TABLA DE TECNOLOGÍAS */}
 
-            {/* BOTONES DE ACCIÓN (Al final) */}
             <div className="pt-10 flex justify-center gap-6">
               <a
-                href="#" // Reemplazar con el enlace real del proyecto
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
-          px-8 py-3 rounded-lg text-white font-medium tracking-wide transition duration-300 ease-in-out
-          bg-purple-600 border border-purple-600 
-          hover:bg-purple-500 hover:ring-2 hover:ring-purple-400 hover:ring-offset-2 hover:ring-offset-gray-900 
-          shadow-lg shadow-purple-600/50 
-          flex items-center space-x-3
-        "
-              >
-                <span>🌐</span>
-                <span>Ver Proyecto</span>
-              </a>
-              <a
-                href="#" // Reemplazar con el enlace real del repositorio
+                href="https://github.com/Luis-aramayo-18/vouchers-manager"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -238,7 +220,6 @@ const ProjectVouchersManagerDetails = () => {
                 <span>Ver Repositorio</span>
               </a>
             </div>
-            {/* FIN DE BOTONES DE ACCIÓN */}
           </div>
         </div>
       </section>
