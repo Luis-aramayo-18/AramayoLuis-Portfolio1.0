@@ -151,7 +151,7 @@ const ProjectRollingFoodDetails = () => {
 
             <div className="pt-10 flex justify-center gap-6">
               <a
-                href="#"
+                href="https://devsfood-rolling.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -166,7 +166,7 @@ const ProjectRollingFoodDetails = () => {
                 <span>Ver Proyecto</span>
               </a>
               <a
-                href="#"
+                href="https://github.com/Luis-aramayo-18/Rolling-Restaurant-Backend"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

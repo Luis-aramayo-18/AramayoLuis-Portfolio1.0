@@ -238,7 +238,7 @@ const ProjectDigitalWorldDetails = () => {
 
             <div className="pt-10 flex justify-center gap-6">
               <a
-                href="#"
+                href="https://digitalworld-tuc.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -253,7 +253,7 @@ const ProjectDigitalWorldDetails = () => {
                 <span>Ver Proyecto</span>
               </a>
               <a
-                href="#"
+                href="https://github.com/Luis-aramayo-18/ecommerse-electronica"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

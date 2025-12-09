@@ -149,6 +149,9 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/Luis-aramayo-18/El-rincon-de-Loky"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
                   >
                     <i className="icon-project text-xl font-thin mr-5 bx bx-navigation"></i>
                   </a>
